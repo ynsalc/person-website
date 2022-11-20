@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Homepage from "./pages";
 
 function App() {
   return (
-    <div>
-      <p className="text-green-500 font-bold">Hello React, Tailwind!</p>
+    <div className="container mx-auto flex flex-col h-screen justify-between">
+      <Homepage />
+      <Footer />
     </div>
   );
 }
