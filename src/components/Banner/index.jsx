@@ -3,7 +3,7 @@ import devImage from "../../assets/dev-img.png";
 
 const Banner = () => {
   return (
-    <div className="flex justify-between mt-20 items-center">
+    <div className="xl:flex xl:justify-between md:flex md:justify-between xl:items-center md:items-center">
       <div className="xl:w-2/4 md:w-2/4 sm:w-full">
         <p className="text-white text-5xl text-title">
           Merhaba ben Yunus ALICI.
